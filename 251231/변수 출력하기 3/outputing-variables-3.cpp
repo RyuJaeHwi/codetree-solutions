@@ -7,7 +7,7 @@ int main() {
     int b = 2;
     char c = 'C';
 
-    cout << a << '->' << b;
+    cout << a << "->" << b << "->" << c;
 
     return 0;
 }
