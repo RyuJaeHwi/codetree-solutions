@@ -10,7 +10,10 @@ int main() {
 
     double result = (A + B) / 2.0;
 
+    cout << fixed;
+    cout.precision(1);
+
     cout << A + B << " " << result;
-    
+
     return 0;
 }
