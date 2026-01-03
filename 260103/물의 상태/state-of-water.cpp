@@ -10,7 +10,7 @@ int main() {
     if(n < 0){
         cout << "ice";
     }
-    else if(0 < n < 100){
+    else if(n >= 0 && n < 100){
         cout << "water";
     }
     else{
