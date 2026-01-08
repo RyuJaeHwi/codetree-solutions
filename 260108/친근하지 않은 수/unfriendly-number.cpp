@@ -7,12 +7,10 @@ int main() {
 
     cin >> N;
 
-    int arr[100];
-
     int sum = 0;
 
-    for(int i = 0; i < N; i++){
-        if(arr[i] % 2 == 0 || arr[i] % 3 == 0 || arr[i] % 5 == 0){
+    for(int i = 1; i <= N; i++){
+        if(i % 2 == 0 || i % 3 == 0 || i % 5 == 0){
             continue;
         }
 
